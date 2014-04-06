@@ -1,0 +1,13 @@
+[run]
+branch = True
+source = zncweblogs
+omit =
+ */openstack/common/*
+ .tox/*
+ zncweblogs/tests/*
+
+[paths]
+source = zncweblogs
+
+[report]
+ignore-errors = True
