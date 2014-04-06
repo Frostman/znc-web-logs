@@ -1,0 +1,13 @@
+hacking>=0.8.0,<0.9
+
+coverage>=3.6
+discover
+docutils==0.9.1
+fixtures>=0.3.14
+mock>=1.0
+psycopg2
+sphinx>=1.1.2,<1.2
+testrepository>=0.0.18
+testscenarios>=0.4
+testtools>=0.9.34
+unittest2
