@@ -1,5 +1,10 @@
 language: python
 python:
   - "2.7"
+env:
+  - PIP_DOWNLOAD_CACHE=.pip-cache
 install: pip install tox\<1.7.0
 script: tox
+cache:
+  directories:
+    - .pip-cache
